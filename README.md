@@ -12,5 +12,19 @@ Remember, it's self-paced so feel free to take a break! ☕️
 
 ---
 
+## Running the backend tests
+
+The project includes a small FastAPI application and accompanying pytest
+suite located in the `tests/` directory. To execute the tests, install the
+requirements (including `pytest`) and then run:
+
+```bash
+pip install -r requirements.txt
+pytest
+```
+
+Each test follows the Arrange‑Act‑Assert pattern and exercises the root
+redirect, activity listing, signup flow, and error handling.
+
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
